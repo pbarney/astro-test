@@ -1,0 +1,5 @@
+---
+deplayment:
+    tasks:
+        - export DEPLOYPATH=/home/pbarney/public_html/astro
+        - /bin/cp -R * $DEPLOYPATH
